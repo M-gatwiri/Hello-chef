@@ -1,0 +1,531 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page-1{
+    height: 100vh;
+    width: 100%;
+    background-color: #FDF4EC;
+}
+
+.nav{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.list{
+    height:100% ;
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.list li{
+    list-style: none;
+    margin: 10px;
+}
+
+.list button{
+    margin: 10px;
+    height: 44%;
+    width: 20%;
+    background-color: #B7220F;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    margin-top: 1px;
+}
+
+.container{
+    height: 85%;
+    width: 100%;
+    display: flex;
+}
+
+.left{
+    height: 100%;
+    width: 50%;
+    margin-left: 50px;
+
+}
+
+.left h4{
+    font-size: 30px;
+    margin-bottom: 30px;
+
+}
+
+.left h2{
+    font-size: 50px;
+
+}
+
+.left img{
+   height: 20%;
+   width: 50%;
+
+}
+
+.left p{
+    font-size: 25px;
+}
+
+.left button{
+    height: 10%;
+    width: 37%;
+    background-color: orangered;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+h6{
+    font-size: 20px;
+}
+
+.right video{
+    height: 90%;
+    width: 100%;
+}
+
+.page-2{
+    height: 100vh;
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.page-2 h1{
+    margin-left: 60px;
+
+}
+
+.images{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.fresh{
+    height: 100%;
+    width: 25%;
+
+}
+
+.fresh img{
+    height:60% ;
+    width: 90%;
+}
+
+.family{
+    height: 100%;
+    width: 25%;
+}
+
+.family img{
+    height:60% ;
+    width: 90%;
+}
+
+.recipe{
+    height: 100%;
+    width: 25%;
+}
+
+.recipe img{
+    height:60% ;
+    width: 90%;
+}
+
+.big{
+    height: 100%;
+    width: 25%;
+}
+
+.big img{
+    height:60% ;
+    width: 90%;
+}
+
+.page-3{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left1{
+    height: 100%;
+    width: 50%;
+}
+
+.left1 img{
+    height: 100%;
+    width: 80%;
+    margin-left: 20px;
+}
+
+.right{
+    height: 100%;
+    width: 50%;
+    font-size: 30px;
+}
+
+.right button{
+    height: 60px;
+    width: 30%;
+    border-radius: 30px;
+    background-color: orangered;
+    color: white;
+    margin-top: 50px;
+}
+
+.page-4{
+    height: 100vh;
+    width: 100%;
+}
+
+.page-4-top{
+margin-top: 70px;
+margin-left: 30px;
+}
+
+.page-4 button{
+    height: 60px;
+    width: 18%;
+    border-radius: 30px;
+    background-color: orangered;
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.page-4-images{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.page-4 img{
+    height: 80%;
+    width: 23%;
+    margin-top: 30px;
+}
+
+.page-5{
+    height: 40vh;
+    width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.page-5-1{
+    height: 90%;
+    width: 90%;
+     background-image: url(/images/addons-dessert-desktop.webp);
+    background-size: cover;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.page-5-1 h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.page-6{
+    height: 100vh;
+    width: 100%;
+}
+
+.page-6 h2{
+    margin-top: 20px;
+    color: orangered;
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.p-1{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.page-6 h4{
+    margin-top: 30px;
+    margin-left: 200px;
+    font-size: 20px;
+}
+
+.page-6-buttons{
+    height: 25%;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.page-6 button{
+    height: 40px;
+    width: 8%;
+    border-radius: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    border: 1px solid grey;
+}
+
+.page-6-boxes{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+
+}
+
+.box-1{
+    height: 100%;
+    width: 23%;
+    background-color: #DEF0FF;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.box-2{
+     height: 100%;
+    width: 23%;
+    background-color: #FDF4EC;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.box-3{
+     height: 100%;
+    width: 23%;
+    background-color: #FDF4EC;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.box-4{
+     height: 100%;
+    width: 23%;
+    background-color: #FDF4EC;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.page-6-boxes p{
+    margin-top: 30px;
+}
+
+.page-7{
+    height: 50vh;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.page-7-right{
+    height: 100%;
+    width: 25%;
+    margin-left: 120px;
+    color: white;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.page-7-left{
+    height: 100%;
+    width: 75%;
+    color: white;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.page-8{
+    height: 100vh;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.page-8 h1{
+    margin-left: 35%;
+    margin-top: 60px;
+    
+}
+
+.page-8-top{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.page-8 button{
+    height: 40px;
+    width: 10%;
+    color: white;
+    background-color: orangered;
+    border-radius: 20px;
+    font-size: 20px;
+    /* margin-top: 80%; */
+    margin: 10px;
+}
+
+.page-8-bottom{
+    height: 30%;
+    width: 50%;
+    margin-left: 20%;
+    font-size: 30px;
+    margin-top: -60px;
+    
+}
+
+.page-8-bottom h5{
+    margin: 40px;
+}
+
+.page-9{
+    height: 50vh;
+    width: 100%;
+}
+
+.page-9-image{
+    height: 80%;
+    width: 80%;
+    background-color: #F6F7F7;
+    border-radius: 10px;
+    margin-left: 250px;
+}
+
+.page-9 img{
+    height: 65%;
+    width: 15%;
+    margin-left: 65%;
+    margin-top: 3px;
+}
+
+.page-9-image h3{
+    margin-left: 20px;
+    
+}
+
+.page-9-image p{
+    margin-left: 20px;
+    margin-top: 12px;
+}
+
+.page-9-image h6{
+    margin-top: -40px;
+    margin-left: 12px;
+}
+
+.page-10{
+    height: 100vh;
+    width: 100%;
+}
+
+.page-10-top{
+    height: 80%;
+    width: 100%;
+    display: flex
+}
+
+.page-10-left{
+    height: 100%;
+    width: 40%;
+    background-color: #FDF4EC;
+}
+
+.page-10-right {
+    height: 100%;
+    width: 60%;
+    background-image: url(/images/family-food-together.webp);
+    background-size: cover;
+}
+
+.page-10 h2{
+    color: red;
+    font-size: 50px;
+    margin-left: 30px;
+    margin-top: 90px;
+}
+
+.page-10 p{
+    font-size: 25px;
+    margin: 10px;
+    margin-left: 75px;
+}
+
+.page-10 button{
+    height: 50px;
+    width: 40%;
+    border-radius: 20px;
+    color: white;
+    background-color: orangered;
+    margin-left: 75px;
+    margin-top: 20px;
+    border: none;
+}
+
+.page-10-bottom{
+    height: 20%;
+    width: 100%;
+    background-image: url(/images/seeds-footer.90bdd06.png);
+    background-size: cover;
+}
+
+.page-11{
+    height: 100vh;
+    width: 100%;
+    background-color: #FDF4EC;
+    margin-top: -75px;
+}
+
+.page-11-top{
+    height: 80%;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px
+}
+
+.page-11 h1{
+    margin-top: 70px;
+    font-size: 50px;
+    color: orangered;
+    margin-left: 120px;
+}
+
+.page-11 ul{
+    list-style: none;
+}
+
+.page-11-bottom{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    background-color: #FDF4EC
+    /* margin-bottom: 30px; */
+}
+
+.page-11-bottom p{
+    margin-top: 100px;
+}
+
+.page-11 li{
+    margin: 20px;
+}
