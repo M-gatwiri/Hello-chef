@@ -529,3 +529,87 @@ margin-left: 30px;
 .page-11 li{
     margin: 20px;
 }
+
+.navbar-hide{
+    display: none;
+}
+
+@media( max-width:840px){
+    .nav{
+        display: none;
+    }
+
+    .navbar-hide{
+        display: flex;
+        flex-direction: column;
+        height: max-content;
+        position: relative;
+    }
+    .hidden{
+        display: none;
+    }
+
+    .hidden a{
+        text-decoration: none;
+        color: black;
+        margin: 15px;
+    }
+
+    .navbar-hide:hover>.hidden{
+        height: max-content;
+        width: 40%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        margin-top: 20px;
+    }
+
+    .hidden button{
+        height: 60px;
+        width: 90%;
+        background-color: orangered;
+        border: none;
+        border-radius: 30px;
+        margin: 10px;
+        color: white;
+        font-size: 25px;
+    }
+
+    .container{
+        height: max-content;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .left{
+        height: max-content;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .right{
+        height: max-content;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    
+
+    .page-2{
+        max-height: max-content;
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 20%;
+
+    }
+}
